@@ -20,7 +20,7 @@ set( dependencies
 )
 
 ## Declare a cpp library
-add_library(${PROJECT_NAME}
+add_library(${PROJECT_NAME} SHARED
   src/GridMapOctomapConverter.cpp
 )
 
